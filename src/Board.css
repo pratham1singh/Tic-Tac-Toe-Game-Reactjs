@@ -1,0 +1,30 @@
+@keyframes ani {
+    0%{
+        box-shadow: 0 0 5px 5px blueviolet;
+    }
+    25%{
+        box-shadow: 0 0 5px 5px violet;
+    }
+    50%{
+        box-shadow: 0 0 5px 5px magenta;
+    }
+    75%{
+        box-shadow: 0 0 5px 5px yellowgreen;
+    }
+}
+
+#board{
+    width: 400px;
+    padding: 10px;
+    background-color: greenyellow;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border:outset 20px brown;
+    box-shadow: 0 0 5px 5px blueviolet;
+    animation: ani 5s infinite ;
+}
+#tile7,#tile8,#tile9{
+    margin-bottom: 0px;
+}

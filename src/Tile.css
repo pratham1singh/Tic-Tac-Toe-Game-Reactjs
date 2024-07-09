@@ -1,0 +1,13 @@
+.tile{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px 0 black;
+    transition-duration: 0.5s;
+}

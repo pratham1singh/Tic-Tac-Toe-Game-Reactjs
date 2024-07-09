@@ -1,0 +1,25 @@
+@keyframes ani {
+    from{
+        background-color: rgb(6, 71, 97) ;
+    }
+    to{
+        background-color: skyblue;
+    }
+}
+
+#btn1{
+    /* border: solid 1px black; */
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: skyblue;
+    
+}
+
+button:active{
+    scale: 1.05;
+    /* background-color: pink;
+    transition-duration: 1s; */
+    /* animation: ani 1s infinite backwards; */
+   
+}
